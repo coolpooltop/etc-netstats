@@ -47,11 +47,10 @@ grunt all
 npm start
 ```
 
-see the ETHF interface at http://localhost:3000
+see the ETC Stats interface at http://localhost:3000
 
 [travis-image]: https://travis-ci.org/cubedro/eth-netstats.svg
 [travis-url]: https://travis-ci.org/cubedro/eth-netstats
 [dep-image]: https://david-dm.org/cubedro/eth-netstats.svg
 [dep-url]: https://david-dm.org/cubedro/eth-netstats
 
-live ETC interface coming soon.
