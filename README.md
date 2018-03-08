@@ -73,7 +73,7 @@ sudo npm install -g pm2
       "WS_SECRET"     : "<password>"
     }
   }
-]
+
 ```
 * Run etc-netstats as PM2 service and persist the service for reboot
 ```bash
