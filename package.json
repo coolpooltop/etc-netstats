@@ -1,7 +1,7 @@
 {
   "name": "etc-netstats",
   "description": "Ethereum Classic Network Intelligence dashboard",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "private": true,
   "engines": {
     "node": "0.12.0",
@@ -44,6 +44,11 @@
       "name": "Marian Oancea",
       "email": "marian@ethdev.com",
       "url": "https://github.com/cubedro"
+    },
+    {
+      "name": "Machete",
+      "email": "",
+      "url": "https://github.com/Machete3000"
     }
   ],
   "license": "LGPL-3.0",
