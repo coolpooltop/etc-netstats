@@ -55,10 +55,11 @@ see the ETC Stats interface at http://localhost:3000
 sudo npm install -g pm2
 ```
 
-* Create an app.json file in the local directory of eth-netstats:
+
+* Create an app.json file in the local directory of etc-netstats:
 ```json[
   {
-    "name"        : "eth-netstats",
+    "name"        : "etc-netstats",
     "cwd"         : "<folder-path-to-etc-netstats-e.g. /home/etc-netstats/>",
     "script"      : "app.js",
     "log_date_format"   : "YYYY-MM-DD HH:mm Z",

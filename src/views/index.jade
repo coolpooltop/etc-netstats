@@ -161,8 +161,7 @@ block content
         div.row.second-row
           div.col-xs-12.stat-holder.box
             div.active-nodes.text-warning
-              i.icon-warning-o
-              span.small-title ATTENTION!
+              a.btn.btn-info.btn-xs(href='https://github.com/Machete3000/etc-net-intelligence-api/wiki/Network-Status-Client-Setup', target='_blank') Add your node
               span.small-value This page does not represent the entire state of the ethereum classic network - listing a node on this page is a voluntary process.
           //- div.col-xs-12.stat-holder.box
           //-   div.active-nodes.text-danger
@@ -244,3 +243,6 @@ block content
               nodepropagchart(data="{{node.history.join(',')}}")
             td(class="{{ node.stats | propagationNodeAvgTimeClass : bestBlock }}") {{ node.stats | blockPropagationAvgFilter : bestBlock }}
             td(class="{{ node.stats.uptime | upTimeClass : node.stats.active }}") {{ node.stats.uptime | upTimeFilter }}
+    .text-center
+      a.small(href='https://github.com/Machete3000/etc-net-intelligence-api/wiki/Network-Status-Client-Setup', target='_blank') Add your etherum classic node
+
