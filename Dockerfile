@@ -1,7 +1,7 @@
 FROM node:11-alpine
 
-ADD . /eth-netstats
-WORKDIR /eth-netstats
+ADD . /etc-netstats
+WORKDIR /etc-netstats
 
 RUN npm install && npm install -g grunt-cli && grunt
 
