@@ -1,6 +1,6 @@
 {
   "name": "etc-netstats",
-  "description": "Ethereum Classic Network Intelligence dashboard",
+  "description": "JOYS Network Status",
   "version": "0.0.10",
   "private": true,
   "engines": {
