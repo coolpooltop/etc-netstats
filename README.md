@@ -16,7 +16,7 @@ Make sure you have node.js and npm installed.
 Clone the repository and install the dependencies
 
 ```bash
-git clone https://github.com/Machete3000/etc-netstats
+git clone https://github.com/slavserver/etc-netstats
 cd etc-netstats
 npm install
 sudo npm install -g grunt-cli
